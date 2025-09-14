@@ -103,9 +103,10 @@ body {
 }
 
 
-@media (max-width: 770px){
+@media (max-width: 500px){
    .header-parent-container {
     flex-direction: column;
+    background-color: orange;
    }
 }
 
