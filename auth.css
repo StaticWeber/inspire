@@ -82,28 +82,18 @@ body {
     flex-direction: column;
   }
 
-  .main-child-container {
-    width: 25rem;
-    background-color: green;
-  }
-
   .navbar ul a {
     margin-right: 0.5rem;
   }
 
 }
 
-@media (max-width: 417px){
+@media (max-width: 416px){
 
     .header-parent-container {
        width: 26.5rem;
        background-color: lime;
     }
-
-     .main-parent-container {
-       background-color: brown;
-       width: 26.5rem;
-     }
 
     .head-line-parent {
       text-align: center;
@@ -120,17 +110,12 @@ body {
 @media (max-width: 315px){
    .header-parent-container {
     height: 8rem;
-    width: 27rem;
+    width: 23rem;
     background-color: purple;
    }
 
-  .main-parent-container {
-     width: 27rem;
-     background-color: yellow;
-  }
-
    .head-line-parent {
-     width: 27rem;
+     width: 23rem;
      background-color: pink;
    }
 
@@ -142,16 +127,14 @@ body {
 
 @media (max-width: 172px){
   .header-parent-container {
-    width: 27rem;
+    width: 20rem;
     background-color: green;
   }
 
    .head-line-parent {
-    width: 27rem;
+    width: 20rem;
     background-color: orange;
    }
-
-
 }
 
 /* .header-parent-container {
