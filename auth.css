@@ -110,13 +110,6 @@ body {
    }
 }
 
-@media (max-width: 530px){
-   .main-child-container {
-    background-color: purple;
-    width: 20rem;
-  }
-}
-
 @media (max-width: 475px){
   .header-parent-container {
     width: 30rem;
@@ -128,7 +121,6 @@ body {
     width: 30rem;
     background-color: red;
   }
-
 
 }
 
