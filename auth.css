@@ -36,6 +36,21 @@ body {
     color: cyan;
 }
 
+.head-line-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.quote {
+    color: cyan;
+}
+
+.doctor {
+    margin-left: 8rem;
+}
+
 @media (max-width: 530px){
   .header-parent-container {
     background-color: brown;
@@ -47,8 +62,39 @@ body {
   }
 }
 
-@media (max-width: 280px){
+@media (max-width: 416px){
+    .head-line-parent {
+        text-align: center;
+      flex-direction: column;
+      background-color: green;
+    }
 
+    .doctor {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 315px){
+   .header-parent-container {
+    height: 8rem;
+    background-color: purple;
+   }
+
+   .navbar ul a {
+    display: block;
+    text-align: center;
+   }
+}
+
+@media (max-width: 172px){
+  .header-parent-container {
+    width: 11em;
+    background-color: green;
+  }
+
+   .head-line-parent {
+    width: 11rem;
+   }
 }
 
 /* .header-parent-container {
