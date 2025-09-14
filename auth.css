@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-parent-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+}
+
+.header-logo {
+    font-size: 2rem;
+    color: cyan
+}
+
+.header-child-container {
+    font-weight: 800;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+    color: cyan;
+}
+
+.head-line {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.quote {
+    color: cyan;
+}
+
+.doctor {
+    margin-left: 0.5rem;
+    display: block;
+}
+
+.main-parent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.authenticate-logo {
+    color: cyan;
+    margin-top: 1rem;
+}
+
+.main-child-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    height: 15rem;
+    width: 30rem;
+    background-color: cyan;
+    color: black;
+}
+
+#authenticate-form {
+    margin-top: 2rem;
+}
+
+.input {
+    height: 1.5rem;
+}
+
+.other-button {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: brown;
+    color: white;
+}
+
+#submit-button {
+    margin-left: 9rem;
+    
+}
+
+.other-button:hover {
+     background-color: cyan;
+     color: black;
+}
+
+.other-button:active {
+    background-color: orange;
+    color: black;
+}
+
+
+@media (max-width: 770px){
+   .header-parent-container {
+    flex-direction: column;
+    justify-content: center;
+   }
+}
+
+@media (max-width: 475px){
+  .header-parent-container {
+    width: 30rem;
+  }
+
+}
+
+@media (max-width: 455px){
+    .head-line {
+        width: 30rem;
+    }
+   .main-parent-container {
+    width: 30rem;
+  }
+}

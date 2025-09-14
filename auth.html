@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSPIRE AUTH</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+   <header>
+    <div class="header-parent-container">
+        <h1 class="header-logo">INSPIRE</h1>
+        <div class="header-child-container">
+            <nav class="navbar">
+                <ul>
+                    <a href="home.html">Home</a>
+                    <a href="">Social</a>
+                    <a href="">Meditation</a>
+                    <a href="">Quotes</a>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="head-line">
+        <h5 class="quote">"THE SOUL IS LIKA A MIRROR. IT BREAKS, IT SHATTERS."</h5>
+        <small class="doctor">Nwachi M Tochukwu.</small>
+    </div>
+   </header>
+
+   <main>
+    <div class="main-parent-container">
+        <h2 class="authenticate-logo">Authenticate</h2>
+        <small>A one-time authentication.</small>
+        <div class="main-child-container">
+            <form id="authenticate-form">
+
+            <label for="name">NAM:</label>
+            <input type="text" placeholder="John" required minlength="4" max="15" id="name" class="input" autocomplete="name"> <br> <br>
+            <label for="age">AGE:</label>
+            <input type="number" required maxlength="2" id="age" class="input" autocomplete="age"><br> <br>
+            <label for="male">MAL:</label>
+            <input type="radio" id="male" name="gender" required autocomplete="male">
+            <label for="female">FEM:</label>
+            <input type="radio" id="female" name="gender" required autocomplete="female"> <br> <br>
+            <label for="country">COU:</label>
+            <input type="text" required placeholder="U.S.A" minlength="2" maxlength="15" id="country" class="input" autocomplete="country"> <br><br> 
+            <input type="reset" id="reset-button" class="other-button"> 
+            <input type="submit" id="submit-button" class="other-button">
+            
+            </form>
+        </div>
+        
+    </div>
+   </main>
+
+    <script src="auth.js"></script>
+</body>
+</html>
