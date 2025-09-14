@@ -106,7 +106,6 @@ body {
 @media (max-width: 770px){
    .header-parent-container {
     flex-direction: column;
-    justify-content: center;
    }
 }
 
