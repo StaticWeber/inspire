@@ -108,6 +108,10 @@ body {
     flex-direction: column;
     justify-content: center;
    }
+
+   .main-child-container {
+     width: 27rem;
+   }
 }
 
 @media (max-width: 475px){
