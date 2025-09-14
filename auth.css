@@ -110,8 +110,9 @@ body {
    }
 
    .main-child-container {
-     width: 27rem;
-     background-color: red;
+     flex-direction: column;
+     align-items: center;
+     background-color: green;
    }
 }
 
