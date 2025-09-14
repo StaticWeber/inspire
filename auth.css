@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 7rem;
+    height: 4rem;
 }
 
 .header-logo {
@@ -103,10 +103,10 @@ body {
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 770px){
    .header-parent-container {
     flex-direction: column;
-    background-color: orange;
+    justify-content: center;
    }
 }
 
