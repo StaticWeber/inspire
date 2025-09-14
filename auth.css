@@ -103,11 +103,11 @@ body {
 }
 
 
-@media (max-width: 770px){
+/* @media (max-width: 770px){
    .header-parent-container {
-    /* flex-direction: column; */
+    flex-direction: column;
    }
-}
+} */
 
 @media (max-width: 475px){
   .header-parent-container {
