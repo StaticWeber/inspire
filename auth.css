@@ -41,6 +41,10 @@ body {
     background-color: brown;
     flex-direction: column;
   }
+
+  .navbar ul a {
+    margin-right: 0.5rem;
+  }
 }
 
 @media (max-width: 280px){
