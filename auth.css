@@ -111,6 +111,7 @@ body {
 
    .main-child-container {
      width: 27rem;
+     background-color: red;
    }
 }
 
