@@ -15,7 +15,6 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 4rem;
-    background-color: pink;
 }
 
 
@@ -57,21 +56,19 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    background-color: brown;
     color: cyan;
 }
 
-.authenticate-small-letter {
+.authenticate-small-letter-container {
     display: flex;
     justify-content: center;
-    background-color: purple;
 }
 
 .main-parent-container {
     display: flex;
-    height: 14rem;
     justify-content: center;
     align-items: center;
+    height: 14rem;
     margin-top: 1rem;
     background-color: cyan;
     color: black;
@@ -104,6 +101,7 @@ body {
     color: black;
 }
 
+
 @media (max-width: 530px){
   .header-parent-container {
     background-color: brown;
@@ -128,6 +126,7 @@ body {
     }
 }
 
+
 @media (max-width: 315px){
    .header-parent-container {
     height: 8rem;
@@ -143,7 +142,7 @@ body {
     background-color: orange;
     display: block;
     text-align: center;
-    height: 13rem;
+    height: 12rem;
    }
 
    #submit-button {
@@ -151,12 +150,18 @@ body {
    }
 }
 
+
 @media(max-width: 209px){
-    .authenticate-small-letter {
-        background-color: lime;
-        text-align: center;
-    }
+  .authenticate-small-letter-container {
+    background-color: lime;
+    text-align: center;
+  }
+
+  .main-parent-container {
+    height: 15.5rem;
+  }
 }
+
 
 @media (max-width: 172px){
   .header-parent-container {
@@ -166,6 +171,18 @@ body {
 
    .head-line-parent {
     width: 11rem;
+   }
+
+   .main-parent-container {
+      width: 11rem;
+   }
+
+   .authenticate-logo-container {
+     width: 11rem;
+   }
+
+   .authenticate-small-letter-container {
+      width: 11rem;
    }
 }
 

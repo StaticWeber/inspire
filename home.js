@@ -7,7 +7,7 @@ if(!Usercreditials){
 
     setTimeout(() => {
        window.location.href = 'auth.html'
-    }, 1000)
+    }, 500)
    
 } else{
     special[0].textContent = Usercreditials.name;

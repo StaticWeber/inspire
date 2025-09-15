@@ -6,7 +6,7 @@ function check(){
     if(localStorage.getItem('credentials')){
         setTimeout(() => {
           window.location.href = 'home.html'
-        }, 1000);
+        }, 500);
         
     }
 }
