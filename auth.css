@@ -104,7 +104,6 @@ body {
 
 @media (max-width: 530px){
   .header-parent-container {
-    background-color: brown;
     flex-direction: column;
   }
 
@@ -118,7 +117,6 @@ body {
     .head-line-parent {
       text-align: center;
       flex-direction: column;
-      background-color: green;
     }
 
     .doctor {
@@ -130,7 +128,6 @@ body {
 @media (max-width: 315px){
    .header-parent-container {
     height: 8rem;
-    background-color: purple;
    }
 
    .navbar ul a {
@@ -139,7 +136,6 @@ body {
    }
     
    .main-parent-container {
-    background-color: orange;
     display: block;
     text-align: center;
     height: 12rem;
@@ -153,7 +149,6 @@ body {
 
 @media(max-width: 209px){
   .authenticate-small-letter-container {
-    background-color: lime;
     text-align: center;
   }
 
@@ -166,7 +161,6 @@ body {
 @media (max-width: 172px){
   .header-parent-container {
     width: 11em;
-    background-color: green;
   }
 
    .head-line-parent {
