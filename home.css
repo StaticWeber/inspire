@@ -56,7 +56,7 @@ body {
 .image-container {
   display: grid;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 4rem;
   grid-gap: 2rem;
 }
 
