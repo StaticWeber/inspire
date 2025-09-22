@@ -75,8 +75,9 @@ body {
 @media (max-width: 989px){
 
 .image-container {
-  margin-left: 2rem;
+  text-align: center;
 }
+
 
 .images {
   width: 40rem;
@@ -94,13 +95,16 @@ body {
 
 @media (max-width: 500px){
   .header-parent-container {
-    flex-direction: column;
-  }
+   flex-direction: column;
+}
 
- .images {
+.images {
   width: 21rem;
 }
 }
+
+
+
 
 
 @media (max-width: 381px){
@@ -119,6 +123,7 @@ body {
     height: 6rem;
  }
 
+
 .images {
   width: 8rem;
 }
@@ -130,10 +135,5 @@ body {
 }
 
 
-@media (max-width: 160px) {
- .image-container {
-  margin-left: 1rem;
- }
-}
 
 
