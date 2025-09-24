@@ -55,7 +55,7 @@ body {
 
 .image-container {
   display: grid;
-  justify-content: center;
+  justify-items: center;
   margin-top: 4rem;
   grid-gap: 2rem;
 }
@@ -67,6 +67,25 @@ body {
 }
 
 
+.create-div {
+  padding: 2rem;
+}
+
+#append-input {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#text-input {
+  padding: 0.3rem 0.3rem;
+}
+
+
+.button {
+  margin-top: 0.5rem;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.3rem;
+}
 
 
 
